@@ -26,7 +26,7 @@ import mailbox
 sys.path.append("~/.local/lib/python3.8/site-packages")
 
 from icalendar import Calendar
-from ical2orgpy import generate_event_iterator, orgDatetime
+from ical2orgpy import generate_event_iterator, orgDatetime, orgDate
 
 def get_icals(folder):
     res = list()
